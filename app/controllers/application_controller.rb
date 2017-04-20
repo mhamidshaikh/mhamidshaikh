@@ -1,3 +1,9 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+class ArticlesController < ApplicationController
+  def new
+  end
+end
+
+
+def create
+  render plain: params[:article].inspect
 end
