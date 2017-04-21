@@ -1,4 +1,1 @@
-class WelcomeController < ApplicationController
-  def index
-  end
-end
+<h1>Hello, Rails</h1>
