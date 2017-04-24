@@ -1,4 +1,8 @@
-class ApplicationMailer < ActionMailer::Base
-  default from: 'from@example.com'
-  layout 'mailer'
+
+class ArticlesController < ApplicationController
+  def new
+  end
+ 
+  def create
+  end
 end
